@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'UVN Thang Vu';
+    src: url('../uvn-thang-vu/UVN\ Thang\ Vu.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.font_UVN_Thang_Vu {
+    font-family: 'UVN Thang Vu', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+input {
+    outline: none;
+}
+swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  swiper-container {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  swiper-slide {
+    cursor: pointer;
+
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mySwiper {
+    height: 80%;
+    width: 100%;
+  }
+
+  .mySwiper2 {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+
+  .mySwiper2 swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+
+  .mySwiper2 .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+  .mySwiper3 {
+    height: 80%;
+    width: 100%;
+  }
+
+  .mySwiper4 {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+
+  /* .mySwiper4 swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  } */
+
+  .mySwiper4 .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .click-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+    opacity: 1;
+  }
+
+  .swiper-button-next svg, .swiper-button-prev svg {
+    color: blueviolet !important;
+  }
+  
+  
+  .click-btn:hover {
+    /* Hiệu ứng khi di chuột lên button */
+    opacity: 0.8;
+    transform: translateY(-1px); 
+  }
+  .click-btn:active {
+    opacity: 1;
+    transform: translateY(1px); 
+  }
